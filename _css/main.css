@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: #fff;
+
+}
+
+header {
+    color: #fff;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 1440px;
+    background-color: #26335D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 3;
+
+}
+
+.menuHeader {
+    display: flex;
+    max-width: 1322px;
+    height: 91px;
+
+}
+
+.logo {
+    width: 30%;
+    padding: 30px 100px 33px 80px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: .1px;
+
+}
+
+.menuContext {
+    width: 40%;
+    padding: 37px 59px;
+}
+
+.menuContext a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .2;
+    align-items: center;
+    margin-right: 21px;
+}
+
+.menuButtons {
+    width: 30%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.menuButtons a {
+    height: 52px;
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15px 20px;
+
+}
+
+.btn-primary {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 15px;
+    font-size: 14px;
+    position: relative;
+    width: 138px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+
+    /* primary-color */
+
+    background: #8D5CF6;
+    border-radius: 5px;
+
+}
+
+.bannerSchool {
+    max-width: 1440px;
+    height: 682px;
+    z-index: 2;
+    display: flex;
+    margin: 148px 132px;
+}
+
+.imgPoligonleft {
+    width: 910px;
+    height: 778px;
+    top: 0;
+    left: 11.3%;
+    position: absolute;
+    background-image: url(../_img/Rectangle5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.imgPoligonRight {
+    position: absolute;
+    width: 530px;
+    height: 271px;
+    right: 11.3%;
+    top: 0;
+    position: absolute;
+    background-image: url(../_img/Rectangle4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+
+}
+
+.conteinerTextBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 573px;
+    height: 386px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.conteinerTextBanner h5 {
+    font-size: 16px;
+    letter-spacing: .1px;
+
+}
+
+.conteinerTextBanner h1 {
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: .2px;
+}
+
+.conteinerTextBanner h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 447px;
+    height: 60px;
+}
+
+.buttonsBanner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    width: 305px;
+    height: 52px;
+}
+
+.buttonsBanner .btn-primary {
+    padding: 15px 40px;
+}
+
+.buttonsBanner a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    gap: 10px;
+    width: 162px;
+    height: 52px;
+    border: 1px solid #8D5CF6;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 160px;
+
+}
+
+.buttonsBanner a:hover,
+.menuButtons a:hover {
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.imageBanner {
+    width: 704px;
+    height: 682px;
+}
+
+.tecnologyImage {
+    position: absolute;
+    width: 745px;
+    height: 814px;
+    right: 206px;
+    top: 110px;
+    background-image: url(../_img/technology1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.elipseImage {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    right: 340px;
+    top: 340px;
+    background-image: url(../_img/Ellipse24.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+img {
+    position: relative;
+    z-index: 2;
+}
+
+.chartImage {
+    top: 487px;
+    right: -120px;
+}
